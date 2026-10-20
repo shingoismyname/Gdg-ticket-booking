@@ -397,9 +397,9 @@ input:focus-visible {
   width: 100%;
   height: 100%;
   max-height: none;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  background: var(--poster-bg);
+  background: transparent;
 }
 
 /* Overlay is above the poster but below the badge and decorative mark. */
